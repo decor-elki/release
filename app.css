@@ -170,13 +170,6 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
   .list .teaser-section, .page .teaser-section {
     min-height: 250px;
     margin-bottom: 1rem; }
-    /* line 98, /home/korvin/git/decor-elki/src/src/sass/partials/_global.sass */
-    .list .teaser-section h2, .page .teaser-section h2 {
-      min-height: 56px;
-      font-size: 20;
-      font-family: 'Helvetica Light', sans-serif;
-      text-align: left;
-      margin-left: 20pt; }
 
 /* line 108, /home/korvin/git/decor-elki/src/src/sass/partials/_global.sass */
 .list h1 span {
