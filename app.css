@@ -535,47 +535,14 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
     margin-top: -2rem; } }
 
 /* line 6, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
-.page.style h1 {
-  text-align: center; }
-  @media (min-width: 767px) {
-    /* line 8, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
-    .page.style h1 span {
-      padding: 2.0rem 2.0rem; }
-      /* line 11, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
-      .page.style h1 span:before {
-        content: '';
-        background-size: cover;
-        display: block;
-        position: absolute;
-        bottom: 0;
-        width: 2.5rem;
-        height: 3rem;
-        width: 6rem;
-        height: 7rem;
-        background: url("/images/style-title-left.svg") no-repeat 0 0;
-        left: 0; }
-      /* line 15, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
-      .page.style h1 span:after {
-        content: '';
-        background-size: cover;
-        display: block;
-        position: absolute;
-        bottom: 0;
-        width: 2.5rem;
-        height: 3rem;
-        width: 6rem;
-        height: 7rem;
-        background: url("/images/style-title-right.svg") no-repeat 0 0;
-        right: 0; } }
-
-/* line 19, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
 .page.style h2 {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0; }
   @media (min-width: 767px) {
-    /* line 19, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
+    /* line 6, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
     .page.style h2 {
       padding: 1.0rem; }
-      /* line 25, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
+      /* line 13, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
       .page.style h2:before {
         content: '';
         background-size: cover;
@@ -592,8 +559,8 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
         background-size: contain;
         vertical-align: middle;
         height: 30;
-        right: 10; }
-      /* line 34, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
+        margin-right: 10; }
+      /* line 22, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
       .page.style h2:after {
         content: '';
         background-size: cover;
@@ -610,9 +577,13 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
         background-size: contain;
         vertical-align: middle;
         height: 30;
-        left: 10; } }
+        margin-left: 10; } }
 
-/* line 44, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
+/* line 32, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
+.page.style h3 {
+  margin-top: 0; }
+
+/* line 35, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
 .page.style .desc {
   text-align: justify;
   text-align--moz-box-sizing: border-box;
@@ -624,7 +595,7 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
   text-align-padding-right: 2.08333%; }
 
 @media (max-width: 767px) {
-  /* line 49, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
+  /* line 40, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
   .page.style div .row .col {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -634,7 +605,7 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
     padding-right: 2.08333%; } }
 
 @media (min-width: 767px) {
-  /* line 49, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
+  /* line 40, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
   .page.style div .row .col {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -645,7 +616,7 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
     padding: 10; } }
 
 @media (min-width: 992px) {
-  /* line 49, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
+  /* line 40, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
   .page.style div .row .col {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -655,22 +626,22 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
     padding-right: 2.08333%;
     padding: 10; } }
 
-/* line 60, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
+/* line 51, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
 .page.style p {
   line-height: 1.5;
   font-size: 1.2rem;
   text-align: justify; }
 
-/* line 65, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
+/* line 56, /home/korvin/git/decor-elki/src/src/sass/partials/_style.sass */
 .styles-img-sketch {
   width: 100%; }
 
 @media (min-width: 767px) {
-  /* line 3, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+  /* line 5, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
   .page.element .container {
     margin-top: -2rem; } }
 
-/* line 6, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+/* line 9, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
 .page.element .desc {
   text-align: justify;
   text-align--moz-box-sizing: border-box;
@@ -682,7 +653,7 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
   text-align-padding-right: 2.08333%; }
 
 @media (max-width: 767px) {
-  /* line 10, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+  /* line 14, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
   .page.element .row .col {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -692,7 +663,7 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
     padding-right: 2.08333%; } }
 
 @media (min-width: 767px) {
-  /* line 10, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+  /* line 14, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
   .page.element .row .col {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -702,7 +673,7 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
     padding-right: 2.08333%; } }
 
 @media (min-width: 992px) {
-  /* line 10, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+  /* line 14, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
   .page.element .row .col {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -712,20 +683,33 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
     padding-right: 2.08333%;
     margin-left: 8.33333%; } }
 
-/* line 18, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+/* line 24, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+.page.element .myimg img {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 8.33333%;
+  float: left;
+  padding-left: 2.08333%;
+  padding-right: 2.08333%;
+  width: 8.33333%;
+  position: absolute;
+  left: 1%;
+  top: 5%; }
+
+/* line 31, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
 .page.element p {
   line-height: 1.5;
   font-size: 1.2rem;
   text-align: justify; }
 
-/* line 23, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+/* line 36, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
 .page.element h1 {
   text-align: center; }
   @media (min-width: 767px) {
-    /* line 25, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+    /* line 38, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
     .page.element h1 span {
       padding: 1.0rem; }
-      /* line 29, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+      /* line 42, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
       .page.element h1 span:before {
         content: '';
         background-size: cover;
@@ -742,8 +726,8 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
         background-size: contain;
         vertical-align: middle;
         height: 30;
-        right: 10; }
-      /* line 38, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
+        margin-right: 10; }
+      /* line 51, /home/korvin/git/decor-elki/src/src/sass/partials/_element.sass */
       .page.element h1 span:after {
         content: '';
         background-size: cover;
@@ -760,7 +744,7 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
         background-size: contain;
         vertical-align: middle;
         height: 30;
-        left: 10; } }
+        margin-left: 10; } }
 
 @media (min-width: 767px) {
   /* line 3, /home/korvin/git/decor-elki/src/src/sass/partials/_zone.sass */
@@ -809,8 +793,21 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
     padding-right: 2.08333%;
     margin-left: 8.33333%; } }
 
+/* line 20, /home/korvin/git/decor-elki/src/src/sass/partials/_zone.sass */
+.page.zone .myimg img {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 8.33333%;
+  float: left;
+  padding-left: 2.08333%;
+  padding-right: 2.08333%;
+  width: 8.33333%;
+  position: absolute;
+  left: 1%;
+  top: 5%; }
+
 @media (min-width: 767px) {
-  /* line 23, /home/korvin/git/decor-elki/src/src/sass/partials/_zone.sass */
+  /* line 31, /home/korvin/git/decor-elki/src/src/sass/partials/_zone.sass */
   .page.zone h1 span:before {
     content: '';
     background-size: cover;
@@ -827,8 +824,8 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
     background-size: contain;
     vertical-align: middle;
     height: 30;
-    right: 10; }
-  /* line 33, /home/korvin/git/decor-elki/src/src/sass/partials/_zone.sass */
+    margin-right: 10; }
+  /* line 41, /home/korvin/git/decor-elki/src/src/sass/partials/_zone.sass */
   .page.zone h1 span:after {
     content: '';
     background-size: cover;
@@ -845,9 +842,9 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
     background-size: contain;
     vertical-align: middle;
     height: 30;
-    left: 10; } }
+    margin-left: 10; } }
 
-/* line 44, /home/korvin/git/decor-elki/src/src/sass/partials/_zone.sass */
+/* line 52, /home/korvin/git/decor-elki/src/src/sass/partials/_zone.sass */
 .page.zone p {
   line-height: 1.5;
   font-size: 1.2rem;
