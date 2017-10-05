@@ -4,7 +4,8 @@
 $('.slider')
   .show()
   .bxSlider({
-    mode: 'fade'
+    mode: 'fade',
+    adaptiveHeight: false
   })
 
 $(document).ready(function(){
