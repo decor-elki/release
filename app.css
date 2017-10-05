@@ -1254,3 +1254,16 @@ p {
 /* line 52, /home/korvin/git/decor-elki/src/src/sass/partials/_about.sass */
 .page.about p {
   line-height: 1.5; }
+
+/* line 131, /home/korvin/git/decor-elki/src/src/sass/app.sass */
+.bx-wrapper, .bx-viewport {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+@media (min-width: 992px) {
+  /* line 137, /home/korvin/git/decor-elki/src/src/sass/app.sass */
+  .bx-prev {
+    margin-left: 5%; }
+  /* line 139, /home/korvin/git/decor-elki/src/src/sass/app.sass */
+  .bx-next {
+    margin-right: 5%; } }
