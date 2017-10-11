@@ -312,6 +312,12 @@ table.doc-list > tbody > tr > td, table.doc-list > thead > tr > th {
         background: url("/images/style-title-right.svg") no-repeat 0 0;
         right: 0; } }
 
+/* line 191, C:/Users/Андрей/Documents/git/decor-elki/src/src/sass/partials/_global.sass */
+textarea {
+  border-width: 2px;
+  font-size: 14px;
+  font-family: 'Helvetica Light', sans-serif; }
+
 /* line 1, C:/Users/Андрей/Documents/git/decor-elki/src/src/sass/partials/_header.sass */
 body {
   margin: 8; }
