@@ -409,7 +409,7 @@ body {
 
 /* line 70, C:/Users/korvin/Documents/git/src/src/sass/partials/_header.sass */
 .teaser-section {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   text-align: center; }
   @media (max-width: 767px) {
     /* line 70, C:/Users/korvin/Documents/git/src/src/sass/partials/_header.sass */
