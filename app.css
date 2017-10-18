@@ -354,15 +354,15 @@ body {
 
 /* line 40, C:/Users/korvin/Documents/git/src/src/sass/partials/_header.sass */
 .row.first-page-title {
-  margin: 1rem auto 4rem; }
+  margin: 0 auto 4rem; }
   @media (max-width: 992px) {
     /* line 40, C:/Users/korvin/Documents/git/src/src/sass/partials/_header.sass */
     .row.first-page-title {
-      margin: 1rem auto 3rem; } }
+      margin: 0 auto 3rem; } }
   @media (max-width: 767px) {
     /* line 40, C:/Users/korvin/Documents/git/src/src/sass/partials/_header.sass */
     .row.first-page-title {
-      margin: 2rem auto 2rem; } }
+      margin: 0 auto 2rem; } }
 
 /* line 48, C:/Users/korvin/Documents/git/src/src/sass/partials/_header.sass */
 .logo-title {
