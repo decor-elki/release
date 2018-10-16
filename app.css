@@ -68,7 +68,7 @@ a, p, h1, h2, h3 {
 /* line 109, C:/Users/korvin/Documents/git/src/src/sass/app.sass */
 .message {
   width: 300;
-  height: 300;
+  height: 250;
   font-size: 14pt;
   border-color: #731700;
   border-top-style: double;
